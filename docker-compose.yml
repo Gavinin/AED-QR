@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  aed-qr:
+    build: .
+    image: aed-qr:latest
+    container_name: aed-qr
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./db:/app/db
+      - ./config:/app/config
+      - ./log:/app/log
+      - ./ssl:/etc/nginx/ssl
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Shanghai

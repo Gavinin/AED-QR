@@ -1,0 +1,55 @@
+{
+  "login": {
+    "title": "管理者ログイン",
+    "username": "ユーザー名",
+    "password": "パスワード",
+    "captcha": "キャプチャ",
+    "submit": "ログイン",
+    "loading": "ログイン中...",
+    "error": "ログインに失敗しました",
+    "invalid_captcha": "無効なキャプチャ",
+    "username_required": "ユーザー名は必須です",
+    "password_required": "パスワードは必須です",
+    "captcha_required": "キャプチャは必須です"
+  },
+  "dashboard": {
+    "title": "ダッシュボード",
+    "logout": "ログアウト",
+    "add_vehicle": "車両を追加",
+    "edit_vehicle": "車両を編集",
+    "welcome": "ようこそ",
+    "settings": "設定",
+    "language": "言語",
+    "dark_mode": "ダークモード",
+    "vehicle_name": "名前",
+    "vehicle_brand": "ブランド",
+    "vehicle_location": "AEDの場所",
+    "custom_location": "カスタムロケーション",
+    "vehicle_data": "データ (JSON)",
+    "api_region": "API Region",
+    "api_china": "China Mainland",
+    "api_intl": "International",
+    "api_region_required": "API Region is required",
+    "enabled": "有効",
+    "no_vehicles": "車両が見つかりません。+ボタンをクリックして追加してください。",
+    "confirm_delete": "この車両を削除してもよろしいですか？",
+    "delete": "削除",
+    "qr_code": "QRコード"
+  },
+  "locations": {
+    "Front Trunk": "フロントトランク",
+    "Rear Trunk": "リアトランク",
+    "Front Left": "前席左",
+    "Front Right": "前席右",
+    "Rear Left": "後席左",
+    "Rear Right": "後席右",
+    "Custom": "カスタム"
+  },
+  "common": {
+    "cancel": "キャンセル",
+    "save": "保存",
+    "close": "閉じる",
+    "select_language": "言語を選択",
+    "open": "開く"
+  }
+}

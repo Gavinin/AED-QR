@@ -1,0 +1,55 @@
+{
+  "login": {
+    "title": "تسجيل دخول المسؤول",
+    "username": "اسم المستخدم",
+    "password": "كلمة المرور",
+    "captcha": "التحقق",
+    "submit": "تسجيل الدخول",
+    "loading": "جارٍ تسجيل الدخول...",
+    "error": "فشل تسجيل الدخول",
+    "invalid_captcha": "رمز التحقق غير صالح",
+    "username_required": "اسم المستخدم مطلوب",
+    "password_required": "كلمة المرور مطلوبة",
+    "captcha_required": "رمز التحقق مطلوب"
+  },
+  "dashboard": {
+    "title": "لوحة القيادة",
+    "logout": "تسجيل الخروج",
+    "add_vehicle": "إضافة مركبة",
+    "edit_vehicle": "تعديل مركبة",
+    "welcome": "أهلاً بك",
+    "settings": "الإعدادات",
+    "language": "اللغة",
+    "dark_mode": "الوضع الداكن",
+    "vehicle_name": "الاسم",
+    "vehicle_brand": "الماركة",
+    "vehicle_location": "موقع AED",
+    "custom_location": "موقع مخصص",
+    "vehicle_data": "البيانات (JSON)",
+    "api_region": "API Region",
+    "api_china": "China Mainland",
+    "api_intl": "International",
+    "api_region_required": "API Region is required",
+    "enabled": "مفعل",
+    "no_vehicles": "لم يتم العثور على مركبات. انقر على زر + لإضافة واحدة.",
+    "confirm_delete": "هل أنت متأكد أنك تريد حذف هذه المركبة؟",
+    "delete": "حذف",
+    "qr_code": "رمز الاستجابة السريعة"
+  },
+  "locations": {
+    "Front Trunk": "الصندوق الأمامي",
+    "Rear Trunk": "الصندوق الخلفي",
+    "Front Left": "الأمام يسار",
+    "Front Right": "الأمام يمين",
+    "Rear Left": "الخلف يسار",
+    "Rear Right": "الخلف يمين",
+    "Custom": "مخصص"
+  },
+  "common": {
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "close": "إغلاق",
+    "select_language": "اختر اللغة",
+    "open": "فتح"
+  }
+}

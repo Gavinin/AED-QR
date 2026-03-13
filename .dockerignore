@@ -1,0 +1,46 @@
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# IDEs
+.vscode
+.idea
+*.swp
+.DS_Store
+
+# Backend Artifacts
+backend
+*.exe
+*.test
+debug
+
+# Data & Logs & Config (Local)
+data/
+log/
+ssl/
+# We might want to keep config/config.yml if we want to copy it as example, 
+# but usually we don't want local config in image. 
+# The Dockerfile tries to copy it, so we'll leave it for now or check Dockerfile logic.
+# Dockerfile: COPY --from=backend-builder /app/config/config.yml /app/config.example.yml
+# This implies we DO need config.yml in the context if we want to use it as example.
+# However, usually we should have a separate config.example.yml.
+# For now, let's NOT ignore config/config.yml to avoid breaking the build line, 
+# but ideally we should change that.
+
+# Frontend Artifacts (Crucial to ignore these)
+web/node_modules
+web/.next
+web/out
+web/build
+web/.env.local
+web/.env.development.local
+web/.env.test.local
+web/.env.production.local
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*

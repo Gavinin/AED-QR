@@ -1,0 +1,55 @@
+{
+  "login": {
+    "title": "관리자 로그인",
+    "username": "사용자 이름",
+    "password": "비밀번호",
+    "captcha": "보안 문자",
+    "submit": "로그인",
+    "loading": "로그인 중...",
+    "error": "로그인 실패",
+    "invalid_captcha": "잘못된 보안 문자",
+    "username_required": "사용자 이름은 필수입니다",
+    "password_required": "비밀번호는 필수입니다",
+    "captcha_required": "보안 문자는 필수입니다"
+  },
+  "dashboard": {
+    "title": "대시보드",
+    "logout": "로그아웃",
+    "add_vehicle": "차량 추가",
+    "edit_vehicle": "차량 편집",
+    "welcome": "환영합니다",
+    "settings": "설정",
+    "language": "언어",
+    "dark_mode": "다크 모드",
+    "vehicle_name": "이름",
+    "vehicle_brand": "브랜드",
+    "vehicle_location": "AED 위치",
+    "custom_location": "사용자 지정 위치",
+    "vehicle_data": "데이터 (JSON)",
+    "api_region": "API Region",
+    "api_china": "China Mainland",
+    "api_intl": "International",
+    "api_region_required": "API Region is required",
+    "enabled": "활성화됨",
+    "no_vehicles": "차량을 찾을 수 없습니다. + 버튼을 클릭하여 추가하세요.",
+    "confirm_delete": "이 차량을 삭제하시겠습니까?",
+    "delete": "삭제",
+    "qr_code": "QR 코드"
+  },
+  "locations": {
+    "Front Trunk": "프론트 트렁크",
+    "Rear Trunk": "리어 트렁크",
+    "Front Left": "앞좌석 왼쪽",
+    "Front Right": "앞좌석 오른쪽",
+    "Rear Left": "뒷좌석 왼쪽",
+    "Rear Right": "뒷좌석 오른쪽",
+    "Custom": "사용자 지정"
+  },
+  "common": {
+    "cancel": "취소",
+    "save": "저장",
+    "close": "닫기",
+    "select_language": "언어 선택",
+    "open": "열기"
+  }
+}

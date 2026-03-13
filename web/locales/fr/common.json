@@ -1,0 +1,55 @@
+{
+  "login": {
+    "title": "Connexion administrateur",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "captcha": "Captcha",
+    "submit": "Se connecter",
+    "loading": "Connexion en cours...",
+    "error": "Échec de la connexion",
+    "invalid_captcha": "Captcha invalide",
+    "username_required": "Le nom d'utilisateur est requis",
+    "password_required": "Le mot de passe est requis",
+    "captcha_required": "Le captcha est requis"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "logout": "Déconnexion",
+    "add_vehicle": "Ajouter un véhicule",
+    "edit_vehicle": "Modifier le véhicule",
+    "welcome": "Bienvenue",
+    "settings": "Paramètres",
+    "language": "Langue",
+    "dark_mode": "Mode sombre",
+    "vehicle_name": "Nom",
+    "vehicle_brand": "Marque",
+    "vehicle_location": "Emplacement du DAE",
+    "custom_location": "Emplacement personnalisé",
+    "vehicle_data": "Données (JSON)",
+    "api_region": "API Region",
+    "api_china": "China Mainland",
+    "api_intl": "International",
+    "api_region_required": "API Region is required",
+    "enabled": "Activé",
+    "no_vehicles": "Aucun véhicule trouvé. Cliquez sur le bouton + pour en ajouter un.",
+    "confirm_delete": "Êtes-vous sûr de vouloir supprimer ce véhicule ?",
+    "delete": "Supprimer",
+    "qr_code": "QR Code"
+  },
+  "locations": {
+    "Front Trunk": "Coffre avant",
+    "Rear Trunk": "Coffre arrière",
+    "Front Left": "Avant gauche",
+    "Front Right": "Avant droit",
+    "Rear Left": "Arrière gauche",
+    "Rear Right": "Arrière droit",
+    "Custom": "Personnalisé"
+  },
+  "common": {
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "close": "Fermer",
+    "select_language": "Choisir la langue",
+    "open": "OUVRIR"
+  }
+}

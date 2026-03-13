@@ -1,0 +1,36 @@
+server:
+  port: ":8080"
+  domain: "http://192.168.3.130:3000"
+
+log:
+  level: "debug"
+  path: "log/"
+  max_size: 10 # MB
+  max_backups: 5
+  max_age: 30 # days
+  compress: false
+
+database:
+  driver: "sqlite3"
+  source: "db/index.db"
+
+jwt:
+  secret: "change_me_to_a_secure_secret"
+  expire: 3600 # seconds
+
+admin:
+  username: "admin"
+  password: "password"
+  owner_phone: "+8613800138000"
+
+rate_limit:
+  window: 60 # seconds (observation window)
+  max_requests: 10 # max requests per window
+  block_duration: 60 # seconds (how long to block)
+
+brands:
+  - name: "Tesla"
+    fields:
+      "Access Token": "access_token"
+      "Refresh Token": "refresh_token"
+      "VIN": "vin"

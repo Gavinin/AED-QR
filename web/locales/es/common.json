@@ -1,0 +1,55 @@
+{
+  "login": {
+    "title": "Inicio de sesión de administrador",
+    "username": "Nombre de usuario",
+    "password": "Contraseña",
+    "captcha": "Captcha",
+    "submit": "Iniciar sesión",
+    "loading": "Iniciando sesión...",
+    "error": "Error de inicio de sesión",
+    "invalid_captcha": "Captcha inválido",
+    "username_required": "El nombre de usuario es obligatorio",
+    "password_required": "La contraseña es obligatoria",
+    "captcha_required": "Captcha es obligatorio"
+  },
+  "dashboard": {
+    "title": "Tablero",
+    "logout": "Cerrar sesión",
+    "add_vehicle": "Agregar vehículo",
+    "edit_vehicle": "Editar vehículo",
+    "welcome": "Bienvenido",
+    "settings": "Configuración",
+    "language": "Idioma",
+    "dark_mode": "Modo oscuro",
+    "vehicle_name": "Nombre",
+    "vehicle_brand": "Marca",
+    "vehicle_location": "Ubicación del DEA",
+    "custom_location": "Ubicación personalizada",
+    "vehicle_data": "Datos (JSON)",
+    "api_region": "API Region",
+    "api_china": "China Mainland",
+    "api_intl": "International",
+    "api_region_required": "API Region is required",
+    "enabled": "Habilitado",
+    "no_vehicles": "No se encontraron vehículos. Haga clic en el botón + para agregar uno.",
+    "confirm_delete": "¿Está seguro de que desea eliminar este vehículo?",
+    "delete": "Eliminar",
+    "qr_code": "Código QR"
+  },
+  "locations": {
+    "Front Trunk": "Maletero delantero",
+    "Rear Trunk": "Maletero trasero",
+    "Front Left": "Delantero izquierdo",
+    "Front Right": "Delantero derecho",
+    "Rear Left": "Trasero izquierdo",
+    "Rear Right": "Trasero derecho",
+    "Custom": "Personalizado"
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "close": "Cerrar",
+    "select_language": "Seleccionar idioma",
+    "open": "ABRIR"
+  }
+}

@@ -16,7 +16,7 @@ COPY . .
 RUN CGO_ENABLED=1 GOOS=linux go build -ldflags="-w -s -linkmode external -extldflags '-static'" -tags sqlite_omit_load_extension -o backend ./cmd/backend/main.go
 
 # Stage 2: Build Frontend (Next.js)
-FROM node:20-alpine AS frontend-builder
+FROM node:24-alpine AS frontend-builder
 WORKDIR /app
 
 # Copy dependency files
@@ -31,7 +31,7 @@ ENV NEXT_TELEMETRY_DISABLED 1
 RUN npm run build
 
 # Stage 3: Final Runtime Image
-FROM node:20-alpine
+FROM node:24-alpine
 
 # Install Nginx, OpenSSL, and runtime dependencies for Go (sqlite needs libc)
 RUN apk add --no-cache nginx openssl curl libc6-compat
@@ -42,7 +42,7 @@ RUN mkdir -p /app/config /app/db /app/log /etc/nginx/ssl /usr/share/nginx/html
 
 # Copy Backend Artifacts
 COPY --from=backend-builder /app/backend /app/backend
-COPY example /app/example
+COPY docker/example /app/example
 
 # Copy Frontend Artifacts (Static Export)
 COPY --from=frontend-builder /app/out /usr/share/nginx/html

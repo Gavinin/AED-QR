@@ -3,7 +3,7 @@ version: '3.8'
 services:
   aed-qr:
     build: .
-    image: aed-qr:latest
+    image: ghcr.io/gavinin/aed-qr:latest
     container_name: aed-qr
     ports:
       - "80:80"
